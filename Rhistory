@@ -1,0 +1,202 @@
+library(openxlsx)
+datos<-read.xlsx("ejercicio ABC en Clase.xlsx")
+View(datos)
+library
+?library
+library(abind)
+detach("package:abind", unload = TRUE)
+library(xlsx)
+.libpaths()
+?libpaths
+??libpaths
+iris
+library(datasets.load)
+install.packages("datasets.load")
+install.packages("datasets.load")
+#Se carga el paquete con Library()
+library(datasets.load)
+datasets.load::datasets(package = NULL, lib.loc = NULL, all = TRUE, drop.defaults = FALSE)
+library(readxl)
+library(readxl)
+)
+datos1<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Base de datos 1.xlsx")
+#Script proyecto final R studio - Dessireé Cuichán
+#Se carga el paquete readxl por medio de la función library
+library(readxl)
+#Se procede a asignar la base de datos a una variable denominada datos1 a través de la función read excel
+datos1<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Base de datos 1.xlsx")
+View(datos1)
+#Script proyecto final R studio - Dessireé Cuichán
+#Se carga el paquete readxl por medio de la función library
+library(readxl)
+#Se procede a asignar la base de datos a una variable denominada datos1 a través de la función read excel
+datos1<-read_excel(
+#Script proyecto final R studio - Dessireé Cuichán
+#Se carga el paquete readxl por medio de la función library
+library(readxl)
+#Se procede a asignar la base de datos a una variable denominada datos1 a través de la función read excel
+#Se carga el paquete readr
+library(readr)
+#Se carga el paquete readxl
+library(readxl)
+#Se asigna la base de datos a una variable denominada datos
+datos<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Datos Edificación.xlsx")
+View(datos)
+table(datos$`Tipo  de Calefacción`)
+table(datos$`Tipo  de Calefacción`)
+table(datos$`Combustible de la Calefacción`)
+datos2<-[,c("Precio","Valor del terreno","Tipo de Calefacción","Sistema de drenaje")]
+datos2<-[,c("Precio","Valor del terreno","Tipo de Calefacción","Sistema de drenaje")]
+datos2<-[ ,c("Precio","Valor del terreno","Tipo de Calefacción","Sistema de drenaje")]
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de Calefacción","Sistema de drenaje")]
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de Calefaccion","Sistema de drenaje")]
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de la Calefacción","Sistema de drenaje")]
+rlang::last_error(datos2)
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de la Calefacción","Sistema de drenaje")]
+#Se asigna la base de datos a una variable denominada datos usando la función read excel
+datos<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Datos Edificación.xlsx")
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de la Calefacción","Sistema de drenaje")]
+datos2<-datos[ ,c("Precio","Valor del terreno","Tipo de Calefacción","Sistema de drenaje")]
+names(datos)
+names(datos)
+datos2<-datos[ ,c(1,2,11,13)]
+View(datos2)
+#Se saca
+summary(datos2$Precio)
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos2$Precio)
+datos2
+datos3<-datos2[order(datos2$Precio),]
+datos3
+datos3<-[order(datos2$Precio),]
+datos3<-[order(datos2$Precio),]
+View(datos3)
+datos3<-datos2[order(datos2$Precio),]
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$Precio)
+summary(datos3$`Tamaño del lote (pies cuadrados)`)
+hist(datos3$Precio)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia" )
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+summary(datos3$Precio)
+medianaprecio<-median(datos3$Precio)
+datos4<-datos3[datos3$Precio<medianaprecio,]
+datos4
+View(datos4)
+hist(datos4$precio)
+hist(datos4$Precio)
+#Se carga el paquete readr
+library(readr)
+#Se carga el paquete readxl
+library(readxl)
+#Se asigna la base de datos a una variable denominada datos usando la función read excel
+datos<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Datos Edificación.xlsx")
+#Se utiliza la función names para saber el número de las columnas
+names(datos)
+#Se crea una nueva variable solamente con cuatro columnas correspondiente a la información relevante para el estudio
+datos2<-datos[ ,c(1,2,11,13)]
+#Se ordena la base de datos2 de acuerdo al precio y se le asigna a la variable datos3
+datos3<-datos2[order(datos2$Precio),]
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$Precio)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+medianaprecio<-median(datos3$Precio)
+datos4<-datos3[datos3$Precio<medianaprecio,]
+hist(datos4$Precio)
+datos3
+summary(datos3$Precio)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+names(datos)
+#Se crea una nueva variable solamente con cuatro columnas correspondiente a la información relevante para el estudio
+datos2<-datos[ ,c(1,10,11,13)]
+datos2
+datos3
+datos3<-datos2[order(datos2$Precio),]
+datos3
+datos3
+summary(datos3$Precio)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+summary(datos3$Precio)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+medianaprecio<-median(datos3$Precio)
+mediaprecio<- mean(datos3$Precio)
+desviacionprecio<-sd(datos3$Precio)
+#Se calcula la coeficiente de variación
+coefvarprecio<- desviacionprecio/mediaprecio
+show(datos3)
+table(datos3$`No. De habitaciones`)
+datos4$Precio
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$`No. De habitaciones)
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$No. De habitaciones)
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$`No. De habitaciones`)
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$No. De habitaciones)
+summary(datos$`Tamaño del lote (pies cuadrados)`)
+summary(datos$`No. De Dormitorios`)
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$`No. De habitaciones`)
+medianahabitaciones<-median(datos3$`No. De habitaciones`)
+mediahabitacioens<-mean(datos3$`No. De habitaciones`)
+coefvarhabitaciones<-sd(datos3$`No. De habitaciones`)
+mediahabitacioens<-mean(datos3$`No. De habitaciones`)
+desviacionhabitaciones<-sd(datos3$`No. De habitaciones`)
+datos4<-datos3[datos3$Precio<medianaprecio,]
+coefvarhabitaciones<-desviacionhabitaciones/mediahabitaciones
+mediahabitaciones<-mean(datos3$`No. De habitaciones`)
+coefvarhabitaciones<-desviacionhabitaciones/mediahabitaciones
+coefvarhabitaciones
+#Se utiliza la funcion table para conocer las frecuencias de los datos cualitativos
+table(datos3$`Tipo  de Calefacción`)
+table(datos3$`Sistema de drenaje`)
+#Se carga el paquete readr
+library(readr)
+#Se carga el paquete readxl
+library(readxl)
+#Se asigna la base de datos a una variable denominada datos usando la función read excel
+datos<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Datos Edificación.xlsx")
+#Se utiliza la función names para saber el número de las columnas
+names(datos)
+#Se crea una nueva variable solamente con cuatro columnas correspondiente a la información relevante para el estudio
+datos2<-datos[ ,c(1,10,11,13)]
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+coefvarprecio<- desviacionprecio/mediaprecio
+coefvarprecio
+medianahabitaciones
+mediahabitaciones<-mean(datos3$`No. De habitaciones`)
+desviacionhabitaciones<-sd(datos3$`No. De habitaciones`)
+mediahabitaciones
+desviacionhabitaciones
+coefvarhabitaciones<
+coefvarhabitaciones
+coefvarhabitaciones
+table(datos3$`Tipo  de Calefacción`)
+table(datos3$`Sistema de drenaje`)
+hist(datos3$Precio,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas")
+#Se utiliza la funcion hist para crear un histograma de los precios de las viviendas
+hist(datos3$Precio/1000,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas(en miles)")
+help(hist)
+hist
+require(utils) # for str
+str(hist(islands, breaks = 12, plot =  FALSE)) #-> 10 (~= 12) breaks
+str(hist(islands, breaks = c(12,20,36,80,200,1000,17000), plot = FALSE))
+hist1<-hist(datos3$Precio/1000,xlab = "Precio vivienda", ylab ="Frecuencia", main ="Precio de viviendas(en miles)")
+str(hist1)
+#Se carga el paquete readr
+library(readr)
+#Se carga el paquete readxl
+library(readxl)
+#Se asigna la base de datos a una variable denominada datos usando la función read excel
+datos<-read_excel("C:/Users/Ximena Marquez/OneDrive/Pictures/UNIVERSIDAD/Semestre 3/Proyecto Final R/Datos Edificación.xlsx")
+#Se utiliza la función names para saber el número de las columnas
+names(datos)
+#Se crea una nueva variable solamente con cuatro columnas correspondiente a la información relevante para el estudio
+datos2<-datos[ ,c(1,10,11,13)]
+#Se ordena la base de datos2 de acuerdo al precio y se le asigna a la variable datos3
+datos3<-datos2[order(datos2$Precio),]
+#Se utiliza la funcion summary para conocer los datos min, max la media y la mediana
+summary(datos3$Precio)
+View(datos2)
+View(datos3)
